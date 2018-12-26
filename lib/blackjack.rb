@@ -51,7 +51,7 @@ def invalid_command
   # code invalid_command here
 end
 
-def end_game
+def end_game(total)
   puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
@@ -67,5 +67,5 @@ def runner
     total = hit?(total)
     display_card_total(total)
   end
-end_game
+end_game(total)
 end
