@@ -33,7 +33,7 @@ def initial_round
   deal_card
   display_card_total
   puts display_card_total.gets
-  
+
 end
 
 def hit?
