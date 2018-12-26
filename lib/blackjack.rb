@@ -35,14 +35,14 @@ def initial_round
   return @a+@b
 end
 
-def hit?
+def hit?(num)
   # code hit? here
   prompt_user
   get_user_input
   input = gets.chomp
   if input == "h"
     deal_card
-  end    
+  end
   return @a + @b
 end
 
