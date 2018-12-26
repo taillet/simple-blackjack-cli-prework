@@ -38,8 +38,7 @@ end
 def hit?(num)
   # code hit? here
   prompt_user
-  get_user_input
-  input = gets.chomp
+  input = get_user_input
   if input == "h"
     deal_card
   end
