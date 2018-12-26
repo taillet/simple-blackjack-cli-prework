@@ -37,6 +37,12 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  get_user_input
+  input = gets.chomp
+  if input == "h"
+    deal_card
+  end    
 end
 
 def invalid_command
