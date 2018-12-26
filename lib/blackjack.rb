@@ -29,10 +29,10 @@ end
 
 def initial_round
   # code #initial_round here
-  a = deal_card
-  b = deal_card
-  display_card_total(a+b)
-  return a+b
+  @a = deal_card
+  @b = deal_card
+  display_card_total(@a+@b)
+  return @a+@b
 end
 
 def hit?
@@ -43,6 +43,7 @@ def hit?
   if input == "h"
     deal_card
   end    
+  return @a + @b
 end
 
 def invalid_command
