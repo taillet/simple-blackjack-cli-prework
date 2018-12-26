@@ -42,7 +42,7 @@ def hit?(num)
   if input = "h"
     deal = deal_card
     num = num + deal
-  else
+  elsif input = "s"
     return num
   end
 end
