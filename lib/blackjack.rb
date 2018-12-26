@@ -42,7 +42,7 @@ def hit?(num)
   if input == "h"
     deal_card
   end
-  return @a + @b
+  return num
 end
 
 def invalid_command
