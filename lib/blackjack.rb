@@ -51,6 +51,10 @@ def invalid_command
   # code invalid_command here
 end
 
+def end_game
+  puts "Sorry, you hit #{total}. Thanks for playing!"
+end
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
