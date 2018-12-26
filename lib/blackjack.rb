@@ -33,8 +33,6 @@ def initial_round
   b = deal_card
   display_card_total(a+b)
   return a+b
-
-
 end
 
 def hit?
